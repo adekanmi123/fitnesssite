@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "fitnessite",
+    "slug": "fitnessite",
+    "scheme": "fitnessite",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#00ffff"
+    },
+    "notification": {
+      "icon": "./assets/notification-icon.png",
+      "androidMode": "default"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.webapptutorial.webapp",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.webapptutorial.webapp",
+      "versionCode": 1
+    },
+    "description": ""
+  }
+}
